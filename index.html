@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Golem: O Guardião da Floresta </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar section-content"> 
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text"> Golem: O Guardião da Floresta </h2>
+            </a>
+            <ul class="nav-menu"> 
+                <button id="menu-close-button" class="fas fa-times"></button>
+                  
+                <li class="nav-item">
+                   <a href="#" class="nav-link"> Home </a> 
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link"> Sobre </a>
+                 </li>
+                 <li class="nav-item">
+                    <a href="#galerry" class="nav-link"> Galeria </a>
+                 </li>
+                 <li class="nav-item">
+                    <a href="#contact" class="nav-link"> Contato </a>
+                 </li>
+                 <li class="nav-item">
+                    <a href="#jogar" class="nav-link"> Jogar </a>
+                 </li>
+            </ul>
+
+             <button id="menu-open-button" class="fas fa-bars"></button>
+
+        </nav>
+    </header>
+
+    <main>
+       <section class="hero-section">
+        <div class="section-content">
+            <div class="hero-details">
+                <h2 class="title"> Golem- O Guardião </h2>
+                <h3 class="subtitle"> "Proteja a floresta. Torne-se o guardião." </h3>
+                <p class="description">
+                 Após séculos de paz, a floresta de Elandra mergulha na escuridão com o roubo do Coração da Vida, um cristal mágico que sustentava sua energia. Criaturas sombrias tomam conta da natureza corrompida, e para restaurar o equilíbrio, um antigo guardião é despertado. Cabe a ele atravessar a floresta, enfrentar os inimigos e recuperar o cristal perdido antes que tudo seja consumido.</p>
+
+                <div class="buttons" >
+                    <a href="#about" class="button learn more "> Saiba Mais </a>
+                    <a href="pasta jogo/index.html" target="_blank" class="button_play"> Jogar </a>
+                </div>
+            </div>
+
+        <div class="hero-image-wrapper">
+        <img src="imagens/golem foto.png" alt="Hero"
+        class="hero-image">
+        </div>
+    </div>
+       </section>
+
+       <section class="about-section" id="about">
+        <div class="section-content">
+            <div class="about-image-wrapper">
+                <img src="imagens/sobre golem jogo imagem.png" alt="Sobre o Jogo" class="about-image">
+            </div>
+            <div class="about-details">
+                <h2 class="section-title">Sobre o Jogo </h2>
+                <p class="text"> Em Golem: O Guardião da Floresta, o jogador assume o controle de um poderoso golem criado para proteger a floresta de criaturas invasoras.
+                     A movimentação é feita pelas setas do teclado e o ataque é realizado pressionando a tecla Z. 
+                     O objetivo principal é eliminar os inimigos que surgem no cenário antes que eles consigam causar dano à floresta. 
+                     O jogador precisa se movimentar com agilidade e atacar no momento certo para sobreviver e proteger o território. 
+                     Sobrevivendo as 2 fases que contém no jogo, o jogador chega na tela final que possui o cristal roubado, relando nele o jogo acaba.
+                     O jogo possui uma mecânica simples, porém desafiadora, focada na ação e no tempo de reação do jogador.</p>
+            </div>
+        </div>
+       </section>
+            
+          <section class="galerry-section" id="galerry">
+            <h2 class="section-title">Galeria de Fotos </h2>
+            <div class="section-content">
+                <ul class="galerry-list">
+                    <li class="galerry-item">
+                        <img src="imagens/Captura de Tela (12).png" alt="Galerry" class="galerry-image"> 
+                    </li>
+                    <li class="galerry-item">
+                        <img src="imagens/Captura de Tela (13).png" alt="Gallery" class="galerry-image">
+                    </li>
+                    <li class="galerry-item">
+                        <img src="imagens/Captura de Tela (14).png" alt="Galerry" class="galerry-image">
+                    </li>
+                    <li class="galerry-item">
+                        <img src="imagens/Captura de Tela (15).png" alt="Galerry" class="galerry-image">
+                    </li>
+                </ul>
+            </div>
+          </section>
+            
+           <section class="contact-section" id="contact">
+            <h2 class="section-title">Contato</h2>
+            <div class="section-content">
+                </ul>
+
+                <form id="form-contato" class="contact-form">
+                    <input type="text" id="nome" placeholder="Nome" class="form-input" required>
+                  
+                    <input type="text" id="email" placeholder="E-mail" class="form-input" required>
+                    <small id="erro-email" style="color:red; display:none;">O e-mail deve conter "@"</small>
+                  
+                    <input type="text" id="telefone" placeholder="Telefone" class="form-input" required>
+            
+                    <textarea placeholder="Mensagem" class="form-input" required></textarea>
+                  
+                    <button type="submit" class="submit-button">Enviar</button>
+
+                    <p id="mensagem" style="color: green; display: none;">Formulário enviado com sucesso!</p>
+                  </form>        
+            </div>
+           </section>
+
+           <footer class="footer-section">
+            <div class="section-content">
+                <img src="imagens/escrita golem footer.png" alt="Golem: O Guardião da Floresta" class="logo-footer">
+                </div>
+           </footer>
+ 
+           <body>
+      </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
