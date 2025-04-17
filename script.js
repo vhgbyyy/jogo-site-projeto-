@@ -16,16 +16,22 @@ navLinks.forEach(link => {
 document.getElementById("form-contato").addEventListener("submit", function(event) {
    event.preventDefault();  
 
-   var email = document.getElementById("email").value;
+   var email = document.getElementById("email").value.trim();
    var erroEmail = document.getElementById("erro-email");
-   
-   if (!email.includes("@")) {
+   var mensagem = document.getElementById("mensagem");
+
+   var emailValido = /^[^@]+@[^@]+$/;
+
+   if (!emailValido.test(email)) {
+       erroEmail.textContent = "Por favor, insira um e-mail válido (deve conter texto antes e depois do @).";
        erroEmail.style.display = "inline";  
+       mensagem.style.display = "none";  
    } else {
        erroEmail.style.display = "none";  
-       document.getElementById("mensagem").style.display = "block";  
+       mensagem.style.display = "block";  
    }
 });
+
 
 
 
