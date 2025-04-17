@@ -23,7 +23,7 @@ document.getElementById("form-contato").addEventListener("submit", function(even
    var emailValido = /^[^@]+@[^@]+$/;
 
    if (!emailValido.test(email)) {
-       erroEmail.textContent = "Por favor, insira um e-mail válido (deve conter texto antes e depois do @).";
+       erroEmail.textContent = "O E-mail é inválido.";
        erroEmail.style.display = "inline";  
        mensagem.style.display = "none";  
    } else {
