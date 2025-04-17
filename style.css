@@ -233,7 +233,7 @@ header .navbar {
     overflow: hidden;
 }
 
-.iframe-container .iframe {
+.iframe-container iframe {
     position: absolute;
     top: 0;
     left: 0;

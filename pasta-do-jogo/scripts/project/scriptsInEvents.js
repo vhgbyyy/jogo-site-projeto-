@@ -53,6 +53,11 @@ const scriptsInEvents = {
 		runtime.goToLayout("floresta");
 	},
 
+	async FolhaDeEventosDaFaseDoFimDoJogo_Event4_Act2(runtime, localVars)
+	{
+		runtime.goToLayout("pb");
+	},
+
 	async EventosTelaInicial_Event1_Act2(runtime, localVars)
 	{
 		runtime.goToLayout ("tela golem acorda");
@@ -63,9 +68,14 @@ const scriptsInEvents = {
 		runtime.goToLayout("tela jogabilidade");
 	},
 
-	async FolhaDeEventosDaFaseDoFimDoJogo_Event4_Act2(runtime, localVars)
+	async FolhaDeEventosGameOver_Event1_Act2(runtime, localVars)
 	{
-		runtime.goToLayout("pb");
+		runtime.goToLayout ("floresta");
+	},
+
+	async FolhaDeEventosJogabilidade_Event1_Act1(runtime, localVars)
+	{
+		runtime.goToLayout("tela inicial");
 	},
 
 	async FolhaDeEventosDaFase2_Event6_Act4(runtime, localVars)
@@ -78,17 +88,7 @@ const scriptsInEvents = {
 		runtime.goToLayout ("fim do jogo");
 	},
 
-	async FolhaDeEventosGameOver_Event1_Act2(runtime, localVars)
-	{
-		runtime.goToLayout ("floresta");
-	},
-
 	async FolhaDeEventosPb_Event1_Act2(runtime, localVars)
-	{
-		runtime.goToLayout("tela inicial");
-	},
-
-	async FolhaDeEventosJogabilidade_Event1_Act1(runtime, localVars)
 	{
 		runtime.goToLayout("tela inicial");
 	}

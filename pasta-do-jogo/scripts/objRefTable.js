@@ -49,8 +49,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Text.Acts.SetVisible,
 		C3.Plugins.Touch.Cnds.OnTapGestureObject,
 		C3.ScriptsInEvents.EventosTelaGolemAcorda_Event8_Act1,
-		C3.ScriptsInEvents.EventosTelaInicial_Event1_Act2,
-		C3.ScriptsInEvents.EventosTelaInicial_Event2_Act1,
 		C3.Behaviors.Sin.Acts.SetEnabled,
 		C3.Plugins.Sprite.Acts.SetEffectEnabled,
 		C3.ScriptsInEvents.FolhaDeEventosDaFaseDoFimDoJogo_Event4_Act2,
@@ -59,7 +57,9 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Touch.Cnds.OnTouchObject,
 		C3.ScriptsInEvents.FolhaDeEventosGameOver_Event1_Act2,
 		C3.ScriptsInEvents.FolhaDeEventosPb_Event1_Act2,
-		C3.ScriptsInEvents.FolhaDeEventosJogabilidade_Event1_Act1
+		C3.ScriptsInEvents.FolhaDeEventosJogabilidade_Event1_Act1,
+		C3.ScriptsInEvents.EventosTelaInicial_Event1_Act2,
+		C3.ScriptsInEvents.EventosTelaInicial_Event2_Act1
 	];
 };
 self.C3_JsPropNameTable = [
